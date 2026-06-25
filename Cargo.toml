@@ -1,0 +1,9 @@
+[package]
+name = "bevy_rich_text3d_render_sample"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.19", features = ["dynamic_linking"] }
+bevy_rich_text3d = { git = "https://github.com/mintlu8/bevy_rich_text3d.git" }
+#bevy_rich_text3d = { git = "https://github.com/Cyannide/bevy_rich_text3d.git" }
