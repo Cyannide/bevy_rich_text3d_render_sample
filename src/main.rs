@@ -22,6 +22,7 @@ fn main() {
         .add_plugins(Text3dPlugin {
             load_system_fonts: false,
             //placeholder_glyph_origin: '\u{E000}',
+			serif_family: "Fira Code".into(),
             ..Default::default()
         })
         .add_systems(Startup, setup)
